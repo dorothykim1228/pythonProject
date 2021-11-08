@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>24</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>717</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>American Typewriter</family>
+      <pointsize>48</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabBar:tab {
+ height: 1000px; width: 1000px;
+ }</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::South</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>HOME</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>721</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>American Typewriter</family>
+        <pointsize>64</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Welcome to starbucks</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>461</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Herculanum</family>
+        <pointsize>24</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>도로시님의 위한 추천메뉴</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>320</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>오늘의 커피</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+  background-image : url(:/images/blacktea.png); 
+} </string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../pythonProject/PYQT5/starbucks image/today.png</normaloff>../pythonProject/PYQT5/starbucks image/today.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../pythonProject/PYQT5/starbucks image/green.png</normaloff>../pythonProject/PYQT5/starbucks image/green.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_4">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../pythonProject/PYQT5/starbucks image/americano.png</normaloff>../pythonProject/PYQT5/starbucks image/americano.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>320</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>허니 자몽 블랙티</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>320</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>말차 크림 프라푸치노</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>320</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>아메리카노</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>480</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>430</y>
+        <width>531</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../pythonProject/PYQT5/starbucks image/reward.png</normaloff>../pythonProject/PYQT5/starbucks image/reward.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>500</width>
+        <height>700</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>380</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>360</y>
+        <width>261</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>American Typewriter</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>What's new</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>360</y>
+        <width>251</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>American Typewriter</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Coupon</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>360</y>
+        <width>161</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>161</width>
+        <height>231</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../pythonProject/PYQT5/starbucks image/new.png</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget">
+     <attribute name="title">
+      <string>Order</string>
+     </attribute>
+     <widget class="QTabWidget" name="drink">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-1</y>
+        <width>701</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>701</width>
+        <height>651</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>American Typewriter</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTabBar:tab {
+ height: 1000px; width: 1000px;
+ }</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>음료</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>푸드</string>
+       </attribute>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Pay</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Other</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

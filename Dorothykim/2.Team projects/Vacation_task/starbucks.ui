@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>24</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>717</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>American Typewriter</family>
+      <pointsize>48</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabBar:tab {
+ height: 1000px; width: 1000px;
+ }</string>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::South</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>HOME</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>360</y>
+        <width>141</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>141</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Desktop/new.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>721</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>American Typewriter</family>
+        <pointsize>64</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Welcome to starbucks</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Herculanum</family>
+        <pointsize>24</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>도로시님의 위한 추천메뉴</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>320</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>오늘의 커피</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_4">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>150</y>
+        <width>171</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>320</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>허니 자몽 블랙티</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>320</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>그린티 프라푸치노</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>320</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Papyrus</family>
+        <pointsize>18</pointsize>
+        <italic>false</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>아메리카노</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>480</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>360</y>
+        <width>501</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../../../Desktop/스크린샷 2021-08-03 오후 5.32.22.png</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="">
+     <attribute name="title">
+      <string>Order</string>
+     </attribute>
+     <widget class="QTabWidget" name="drink">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-1</y>
+        <width>701</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>701</width>
+        <height>651</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>American Typewriter</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTabBar:tab {
+ height: 1000px; width: 1000px;
+ }</string>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>음료</string>
+       </attribute>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>671</width>
+          <height>371</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page"/>
+        <widget class="QWidget" name="page_2"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>푸드</string>
+       </attribute>
+       <widget class="QStackedWidget" name="stackedWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>20</y>
+          <width>671</width>
+          <height>431</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_3"/>
+        <widget class="QWidget" name="page_4"/>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Pay</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Other</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

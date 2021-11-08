@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>791</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>drink</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>90</y>
+        <width>311</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>아메리카노</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>90</y>
+        <width>361</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>라떼</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>side</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>90</y>
+        <width>271</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>에그 샌드위치</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>계산</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>190</y>
+        <width>321</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>계산</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>306</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>808</x>
+     <y>23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>684</x>
+     <y>262</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>298</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>812</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slot4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>372</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>814</x>
+     <y>58</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slot1()</slot>
+  <slot>slot2()</slot>
+  <slot>slot3()</slot>
+  <slot>slot4()</slot>
+ </slots>
+</ui>
